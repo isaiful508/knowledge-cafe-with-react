@@ -1,0 +1,53 @@
+[
+    {
+      "id": "123456",
+      "cover": "https://i.ibb.co/17QmGG9/cover-img1.jpg",
+      "title": "The Secret Garden",
+      "author": "Emily Green",
+      "author_img": "https://i.ibb.co/4mwGhbc/author-img.jpg",
+      "posted_date": "March 13(4 days ago)",
+      "reading_times": 5,
+      "hashtags": ["#fiction", "#gardening", "#mystery"]
+    },
+    {
+      "id": "987654",
+      "cover": "https://i.ibb.co/3fwKgKK/cover-img2.jpg",
+      "title": "Beyond the Horizon",
+      "author": "David Blue",
+      "author_img": "https://i.ibb.co/4mwGhbc/author-img.jpg",
+      "posted_date": "March 25(7 days ago)",
+      "reading_times": 10,
+      "hashtags": ["#adventure", "#sci-fi", "#exploration"]
+    },
+    {
+      "id": "456789",
+      "cover": "https://i.ibb.co/yp0drSH/cover-img3.jpg",
+      "title": "The Enchanted Forest",
+      "author": "Sarah Woods",
+      "author_img": "https://i.ibb.co/4mwGhbc/author-img.jpg",
+      "posted_date": "Feb 13(2 days ago)",
+      "reading_times": 8,
+      "hashtags": ["#fantasy", "#magic", "#nature"]
+    },
+    {
+      "id": "987123",
+      "cover": "https://i.ibb.co/HDHZGN6/cover-img4.jpg",
+      "title": "Under the Moonlight",
+      "author": "Michael Moon",
+      "author_img": "https://i.ibb.co/4mwGhbc/author-img.jpg",
+      "posted_date": "March 10(10 days ago)",
+      "reading_times": 15,
+      "hashtags": ["#romance", "#moon", "#stars"]
+    },
+    {
+      "id": "321654",
+      "cover": "https://i.ibb.co/ZSrZ1sb/cover-img5.jpg",
+      "title": "The Forgotten Kingdom",
+      "author": "Jessica Stone",
+      "author_img": "https://i.ibb.co/4mwGhbc/author-img.jpg",
+      "posted_date": "March 26(2 days ago)",
+      "reading_times": 20,
+      "hashtags": ["#history", "#mystery", "#adventure"]
+    }
+  ]
+  
