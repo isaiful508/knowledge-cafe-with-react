@@ -1,3 +1,35 @@
+
+/* font link */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  font-family: "Exo 2", sans-serif;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+
+
+
+/* font style */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+
+
+/* .exo-2- {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:
+  
+} */
