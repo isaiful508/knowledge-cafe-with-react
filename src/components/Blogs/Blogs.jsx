@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 
 
-const Blogs = ({handleAddToBookmark}) => {
+const Blogs = ({handleAddToBookmark, handleMarkRead}) => {
 
     const [blogs, setBlogs] = useState([]);
 
@@ -25,8 +25,10 @@ const Blogs = ({handleAddToBookmark}) => {
                 blogs.map(blog => <Blog 
                 key={blog.id} 
                 blog={blog}
-                handleAddToBookmark ={handleAddToBookmark}>
-                   
+                handleAddToBookmark ={handleAddToBookmark}
+                handleMarkRead={handleMarkRead}
+                >
+                
                 </Blog>)
             }
         
@@ -35,8 +37,9 @@ const Blogs = ({handleAddToBookmark}) => {
     );
 };
 
-Blogs.prototype ={
-    handleAddToBookmark: PropTypes.func
+Blogs.propTypes ={
+    handleAddToBookmark: PropTypes.func,
+    handleMarkRead:PropTypes.func
 }
 
 

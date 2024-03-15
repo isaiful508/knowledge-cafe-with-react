@@ -6,7 +6,24 @@ import Blogs from './components/Blogs/Blogs'
 import Bookmarks from './components/Bookmarks/Bookmarks'
 
 function App() {
+  //bookmark state
 const [bookmarks, setBookmarks] = useState([]);
+//reading time state
+const [readingTime, setReadingTime] = useState(0);
+
+const handleMarkRead = (time, id) =>{
+ 
+  setReadingTime(readingTime+time);
+
+  //remove the read the bookmark
+// console.log('remov boomark', id)
+const remainningsBookmarks = bookmarks.filter((bookmark) => bookmark.id !== id);
+setBookmarks(remainningsBookmarks)
+
+}
+
+
+
 
 const handleAddToBookmark = (blog) =>{
   const newBookmarks = [...bookmarks,  blog]
@@ -19,9 +36,9 @@ const handleAddToBookmark = (blog) =>{
 
       <div className='md:flex max-w-7xl mx-auto'>
 
-      <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
+      <Blogs handleMarkRead={handleMarkRead} handleAddToBookmark={handleAddToBookmark}></Blogs>
 
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+  <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
       </div>
       
      
